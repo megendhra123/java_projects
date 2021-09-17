@@ -5,7 +5,7 @@ class Employee {
     String empLocation;
 
     Employee(String empName, String empLocation) {
-        empName = this.empName;
-        empLocation = this.empLocation;
+        this.empName=empName;
+        this.empLocation=empLocation;
     }
 }
